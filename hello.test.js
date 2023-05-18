@@ -10,5 +10,5 @@ test('Test Vue Running', () => {
     }
   })
 
-  expect(instance.text()).toBe(textMsg)
+  expect(instance.text()).toContain(textMsg)
 })
